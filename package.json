@@ -2,10 +2,10 @@
   "name": "nexus-financeiro",
   "version": "1.0.0",
   "description": "neXus — Assistente financeiro para WhatsApp",
-  "main": "src/server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
@@ -22,3 +22,4 @@
     "node": ">=20.0.0"
   }
 }
+
