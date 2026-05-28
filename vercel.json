@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/",                    "destination": "/public/index.html" },
+    { "source": "/checkout",            "destination": "/public/checkout.html" },
+    { "source": "/sucesso",             "destination": "/public/sucesso.html" },
+    { "source": "/api/criar-checkout",  "destination": "/api/criar-checkout" },
+    { "source": "/api/admin",           "destination": "/api/admin" },
+    { "source": "/webhook/whatsapp",    "destination": "/api/webhook/whatsapp" },
+    { "source": "/webhook/pagarme",     "destination": "/api/webhook/stripe" }
+  ]
+}
